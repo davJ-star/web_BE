@@ -5,27 +5,35 @@
 ## root로 만드는데 에러가 생겨서 jsw 계정을 만들었다. (mysql shell)
 [참고](https://jay-so.tistory.com/67)
 
+**주의** root로 접속하지 않으면 아래 2~6번 작업을 기존 계정에서만 진행할 수 있다.
+
 ```
 [출처](https://kang-james.tistory.com/entry/MySQL-MySQL-CLI로-쉽게-다루기-MySQL-Shell-명령어-정리?category=893026)
-1. \c --mysql [root]@localhost:[3306]
+1. \c --mysql [root]@localhost:[3306] 또는 \connect [root]@localhost:[3306]
 2. \sql
 3. show databases; (만약 삭제하고 싶다면, drop database [db이름]; 생성하고 싶다면, create database [db이름]; )
 (여기서는 생성: create database [db이름];)
 4. use [db이름];
 5. 테이블 생성
-  ```
     create table member (
     -> student_id int primary key auto_increment
     -> student_name varchar(50)
     -> gender char(1),
     -> );
-
-  ```
 6. 테이블 목록 보기: show tables;
 
 
 ```
+**지금 root 계정 password를 까먹어서 확인작업이 필요하다.**
+=> 다른 계정에서 root 권한을 주지 않았다면, 생성할 수 없다.
 
+기존 계정에서 만들수 있는 방법(__아직 검증이 필요_)
+```paintext
+create user '유저이름'@'아이피' identified by '비밀번호';
+create user 'newuser'@'123.45.67.89' identified by '12345';
+
+```
+우선 해당 계정으로 생성할 수 있는지 파악 필요! -> 없다면 [root password 찾는 방법 참고](https://lifere.tistory.com/entry/MySQL-8x-%EB%B2%84%EC%A0%84-root-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EA%B9%8C%EB%A8%B9%EC%97%88%EC%9D%84-%EB%95%8C-%EB%B6%84%EC%8B%A4%ED%96%88%EC%9D%84-%EB%95%8C-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)
 
 swJeong과
 jsw만 지금 알고 있는 상태라서
