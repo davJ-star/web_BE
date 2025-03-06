@@ -3,9 +3,37 @@
 
 # mysql과 백엔드 연동
 ## root로 만드는데 에러가 생겨서 jsw 계정을 만들었다. (mysql shell)
-[참고]()
+[참고](https://jay-so.tistory.com/67)
 
+```
+[출처](https://kang-james.tistory.com/entry/MySQL-MySQL-CLI로-쉽게-다루기-MySQL-Shell-명령어-정리?category=893026)
+1. \c --mysql [root]@localhost:[3306]
+2. \sql
+3. show databases; (만약 삭제하고 싶다면, drop database [db이름]; 생성하고 싶다면, create database [db이름]; )
+(여기서는 생성: create database [db이름];)
+4. use [db이름];
+5. 테이블 생성
+  ```
+    create table member (
+    -> student_id int primary key auto_increment
+    -> student_name varchar(50)
+    -> gender char(1),
+    -> );
+
+  ```
+6. 테이블 목록 보기: show tables;
+
+
+```
+
+
+swJeong과
+jsw만 지금 알고 있는 상태라서
+나머지 계정 만들수 있는 것 어떻게 하는지 정리
 ----
+
+## _cmd랑 powershell에서 만드는 방법 그리고 intellJ 터미널에서 만드는 방법_ (앞으로 이걸 더 많이 사용할 듯)
+
 
 
 ## 존재하는 (만든) 계정, 이를 연결한다.
