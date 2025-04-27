@@ -12,5 +12,5 @@
 - [의약품 복용 알림 서비스](https://github.com/davJ-star/hanwha-ieum-seongwook/tree/front-end-dgy/backend)
 - [todolist](https://github.com/davJ-star/siat-springboot)
 - [계정 관련 모든 것*](https://github.com/side-projectFOR/members)
-- [쇼팡 사이트](https://github.com/davJ-star/nextjs-commerce?tab=readme-ov-file)
+- [쇼핑 사이트](https://github.com/davJ-star/nextjs-commerce?tab=readme-ov-file)
 - [first-spring-starter](https://github.com/davJ-star/first-spring-starter)
