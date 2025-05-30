@@ -10,7 +10,14 @@
 ## 프로젝트 링크
 - [ai 기반 출결관리 시스템](https://github.com/davJ-star/attendance-management-nextjs?tab=readme-ov-file)
 - [의약품 복용 알림 서비스](https://github.com/davJ-star/hanwha-ieum-seongwook/tree/front-end-dgy/backend)
-- [todolist](https://github.com/davJ-star/siat-springboot)
-- [계정 관련 모든 것*](https://github.com/side-projectFOR/members)
+
 - [쇼핑 사이트](https://github.com/davJ-star/nextjs-commerce?tab=readme-ov-file)
+- [씨앗 게시판1](https://github.com/siat-blog/siat9-blog)
+- [씨앗 게시판2](https://github.com/siatBooks/books)
+
 - [first-spring-starter](https://github.com/davJ-star/first-spring-starter)
+- [todolist](https://github.com/davJ-star/siat-springboot)
+ 
+- [계정 관련 모든 것*](https://github.com/side-projectFOR/members)
+
+
