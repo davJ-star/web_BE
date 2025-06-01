@@ -2,7 +2,7 @@
 
 
 
-**"Architecture First, Iterative Optimization, Security Focus, Scalability"**
+**"Architecture First, Iterative Optimization, Security Focus"**
 
 
 
@@ -14,7 +14,7 @@
 - **Architecture First**: 확장 가능한 시스템 설계 우선
 - **Iterative Optimization**: 지속적인 성능 개선
 - **Security Focus**: 보안을 고려한 개발
-- **Scalability**: 대용량 트래픽 처리 능력
+
 
 ## 🛠 Technology Stack
 
