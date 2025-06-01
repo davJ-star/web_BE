@@ -18,53 +18,19 @@
 
 ## 🛠 Technology Stack
 
+| 🚀 **Backend Frameworks** | 🗄️ **Database & ORM** | ⚙️ **DevOps & Tools** |
+|---------------------------|------------------------|------------------------|
+| 🍃 Spring Boot 3.0+ ✅ | 🐬 MySQL 8.0+ ✅ | 🐳 Docker ✅ |
+| 🔒 Spring Security ✅ | 🦭 MariaDB ✅ | ☸️ Kubernetes 📚 |
+| 🗃️ Spring Data JPA ✅ | 🏛️ Oracle ✅ | 🔄 GitHub Actions ✅ |
+| 🌐 Spring MVC ✅ | 🐘 PostgreSQL ✅ | 🏗️ Jenkins 📚 |
+| 📊 MyBatis ✅ | 📱 SQLite ✅ | 📊 Prometheus 📚 |
+| 🐍 Django REST ✅ | 🔄 JPA/Hibernate ✅ | 📈 Grafana 📚 |
+| ⚡ FastAPI ✅ | 📋 MyBatis ✅ | 📝 Swagger/OpenAPI ✅ |
+| 🌶️ Flask ✅ | 🔌 JDBC Template ✅ | 🧪 Postman ✅ |
+| 🟢 Node.js/Express ✅ | | |
 
-
-
-
-### **Backend Frameworks**
-- **Spring Boot 3.0+**
-  - Spring Security
-  - Spring Data JPA
-  - Spring MVC
-  - MyBatis
-- **Python Frameworks**
-  - Django REST Framework
-  - FastAPI
-  - Flask
-- **Node.js**
-  - Express.js
-
-
-
-
-### **Databases & ORM**
-- **Relational DB**
-  - MySQL 8.0+
-  - MariaDB
-  - Oracle
-  - PostgreSQL
-  - SQLite
-- **ORM/Persistence**
-  - JPA/Hibernate
-  - MyBatis
-  - JDBC Template
-
-
-
-
-### **DevOps & Tools**
-- **Containerization**
-  - Docker
-  - Kubernetes (학습중)
-- **CI/CD**
-  - GitHub Actions
-  - Jenkins (학습중)
-- **Monitoring**
-  - Prometheus (학습중)
-  - Grafana (학습중)
-
-
+**상태**: ✅ 사용중 | 📚 학습중
 
 
 
@@ -81,8 +47,6 @@ INCLUDE (dosage, status);
 
 ### **Connection Pool & Caching**
 - **Redis**: API 응답 캐싱으로 응답시간 개선 (도입 예정)
-- **HikariCP**: Connection Pool 최적화
-- **Database Indexing**: 쿼리 성능 최적화
 
 ## 📊 Performance Metrics
 
@@ -165,9 +129,9 @@ public class AuthController {
 - 실시간 코드 리뷰 게시판
 - RESTful API 설계 및 Swagger 문서화
 
-🔗 [Repository - Version 1](https://github.com/siat-blog/siat9-blog)
-🔗 [Repository - Frontend](https://github.com/davJ-star/siatPosts-FE)
-🔗 [Repository - Backend MVP](https://github.com/davJ-star/siatPostMvp-BE)
+- 🔗 [Repository - Version 1](https://github.com/siat-blog/siat9-blog)
+- 🔗 [Repository - Frontend](https://github.com/davJ-star/siatPosts-FE)
+- 🔗 [Repository - Backend MVP](https://github.com/davJ-star/siatPostMvp-BE)
 
 ### 📚 **4. Used Bookstore Management System**
 **Tech Stack**: Java + Oracle + JDBC + 알라딘 API
